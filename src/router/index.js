@@ -3,9 +3,7 @@ import Router from 'vue-router';
 import Login from '@/views/login';
 import Home from '@/views/home';
 import Users from '@/views/Users/Users';
-
 Vue.use(Router);
-
 export default new Router({
   routes: [
     { name: 'Login', path: '/login', component: Login },

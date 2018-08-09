@@ -1,0 +1,3 @@
+[0810/015750.471:ERROR:process_reader_win.cc(123)] NtOpenThread: {无法访问} 过程已请求访问一对象，但未给访问权限。 (0xc0000022)
+[0810/015750.672:ERROR:exception_snapshot_win.cc(88)] thread ID 11944 not found in process
+[0810/015750.672:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 已尝试访问正在退出的过程。 (0xc000010a)
