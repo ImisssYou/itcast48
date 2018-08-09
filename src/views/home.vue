@@ -88,7 +88,9 @@
           </el-submenu>
         </el-menu>
       </el-aside>
-      <el-main class="main">Main</el-main>
+      <el-main class="main">
+        <router-view></router-view>
+      </el-main>
     </el-container>
   </el-container>
 </template>
@@ -104,7 +106,7 @@ export default {
   },
   methods: {
     handleLogout() {
-      this.$message.success('退出成功')；
+      this.$message.success('退出成功');
       sessionStorage.clear();
       this.$router.push('/login');
     }
